@@ -29,6 +29,13 @@ const routes = [
       return import('../views/demo/string/index.vue')
     }
   },
+  {
+    path: '/follow',
+    name: 'follow',
+    component: function () {
+      return import('../views/demo/follow/index.vue')
+    }
+  },
 ]
 
 const router = new VueRouter({

@@ -34,7 +34,7 @@ export default {
                     remark:"我正在看着你",
                     type:1,
                     img:require("../../assets/string.jpg"),
-                    path:"/string"
+                    path:"/follow"
                 },
             ]
         }
