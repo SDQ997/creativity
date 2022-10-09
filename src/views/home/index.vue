@@ -33,7 +33,7 @@ export default {
                     name:"鼠标跟随",
                     remark:"我正在看着你",
                     type:1,
-                    img:require("../../assets/string.jpg"),
+                    img:require("../../assets/follow.png"),
                     path:"/follow"
                 },
             ]
@@ -96,6 +96,9 @@ export default {
             height: calc(100% - 80px);
             background-color: rgb(43, 43, 43);
             overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             img{
             }
         }
