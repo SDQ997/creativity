@@ -36,6 +36,13 @@ const routes = [
       return import('../views/demo/follow/index.vue')
     }
   },
+  {
+    path: '/switch',
+    name: 'switch',
+    component: function () {
+      return import('../views/demo/switch/index.vue')
+    }
+  },
 ]
 
 const router = new VueRouter({

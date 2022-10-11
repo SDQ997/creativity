@@ -26,7 +26,7 @@ export default {
                     name:"随机文字",
                     remark:"随机的文字，随机的样式",
                     type:1,
-                    img:require("../../assets/string.jpg"),
+                    img:require("../../assets/string.jpg"), 
                     path:"/string"
                 },
                 {
@@ -35,6 +35,13 @@ export default {
                     type:1,
                     img:require("../../assets/follow.png"),
                     path:"/follow"
+                },
+                {
+                    name:"SWITCH",
+                    remark:"来自各个网站,陆续补充中",
+                    type:2,
+                    img:require("../../assets/switch.png"),
+                    path:"/switch"
                 },
             ]
         }
