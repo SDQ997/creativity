@@ -169,6 +169,9 @@ export default {
                 align-items: center;
                 justify-content: center;
                 position: absolute;
+                span{
+                    user-select: none;
+                }
             }
             .switch4Button1{
                 right: 50%;

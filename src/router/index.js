@@ -43,6 +43,13 @@ const routes = [
       return import('../views/demo/switch/index.vue')
     }
   },
+  {
+    path: '/apps',
+    name: 'apps',
+    component: function () {
+      return import('../views/demo/apps/index.vue')
+    }
+  },
 ]
 
 const router = new VueRouter({

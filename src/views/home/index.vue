@@ -43,6 +43,13 @@ export default {
                     img:require("../../assets/switch.png"),
                     path:"/switch"
                 },
+                {
+                    name:"APPS",
+                    remark:"来自各个网站的app-Icon",
+                    type:2,
+                    img:require("../../assets/apps.png"),
+                    path:"/apps"
+                },
             ]
         }
     },
