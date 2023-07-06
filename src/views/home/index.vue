@@ -10,9 +10,9 @@
             <div class="itemRemark">
                 <span>{{item.remark}}</span>
             </div>
-            <div class="itemTag" :class="item.type == 1 ? 'itemTag1' : 'itemTag2'">
+            <!-- <div class="itemTag" :class="item.type == 1 ? 'itemTag1' : 'itemTag2'">
                 <span>{{item.type == 1 ? '原创' : '模仿'}}</span>
-            </div>
+            </div> -->
         </div>
     </div>
 </template>
@@ -32,7 +32,7 @@ export default {
                 {
                     name:"鼠标跟随",
                     remark:"我正在看着你",
-                    type:1,
+                    type:2,
                     img:require("../../assets/follow.png"),
                     path:"/follow"
                 },
@@ -49,6 +49,34 @@ export default {
                     type:2,
                     img:require("../../assets/apps.png"),
                     path:"/apps"
+                },
+                {
+                    name:"keyBoard",
+                    remark:"键盘",
+                    type:2,
+                    img:require("../../assets/keyboard.png"),
+                    path:"/keyBoard"
+                },
+                {
+                    name:"爱心",
+                    remark:"一个由光点组成的爱心",
+                    type:1,
+                    img:require("../../assets/heart.png"),
+                    path:"/heart"
+                },
+                {
+                    name:"镜面效果",
+                    remark:"妖魔鬼怪现原形",
+                    type:2,
+                    img:require("../../assets/mirror.png"),
+                    path:"/mirror"
+                },
+                {
+                    name:"高德立体楼房",
+                    remark:"高德立体楼房",
+                    type:2,
+                    img:require("../../assets/mirror.png"),
+                    path:"/map"
                 },
             ]
         }

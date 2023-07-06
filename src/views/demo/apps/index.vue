@@ -1,6 +1,9 @@
 <template>
     <div class="apps">
         <div class="appsBox">
+            <div class="appsName">纯CSS实现</div>
+        </div>
+        <div class="appsBox">
             <div class="appsItem faceTime">
                 <div class="faceTimeItem1"></div>
                 <div class="faceTimeItem2"></div>
